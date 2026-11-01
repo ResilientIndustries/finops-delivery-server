@@ -1,5 +1,14 @@
 [
   {
+    "title": "Production Infrastructure Optimization Node 1023",
+    "description": "Targeting cloud waste identified in telemetry. Automated remediation manifests included.",
+    "storage_waste": "250 GB / mo",
+    "compute_overhead": "150 Hours / mo",
+    "remediation": "Instant IaC",
+    "stripe_link": "https://checkout.stripe.com/c/pay/cs_live_a1JCfWWlvkLCm9ufNTJu1EjXkncm5rk7dRjy10IhwYwYDqMqfrNhbxEhel#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicyc%2FNSknZHVsTmB8Jz8ndW5aaWxzYFowNFBSXUs3QzZIXF1IfERqZD1wVGhBMVNhUjFPZHU0PFxWR0dUQV18PG9pSzxOZ0BIaDxhVmRkUjdVcDNiYVA9dXZTZ0tASWg1Y0p3QVBsf3d3fXNrbGNxRjU1VzZPf0FJZ0InKSdjd2poVmB3c2B3Jz9xd3BgKSdnZGZuYndqcGthRmppancnPycmY2NjY2NjJyknaWR8anBxUXx1YCc%2FJ3Zsa2JpYFpscWBoJyknYGtkZ2lgVWlkZmBtamlhYHd2Jz9xd3BgeCUl",
+    "blueprint_file": "blueprint_20261031_171023.md"
+  },
+  {
     "title": "Production Infrastructure Optimization Node 0356",
     "description": "Targeting cloud waste identified in telemetry. Automated remediation manifests included.",
     "storage_waste": "250 GB / mo",
