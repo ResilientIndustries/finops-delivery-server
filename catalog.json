@@ -1,5 +1,15 @@
 [
   {
+    "title": "S3 Cross-Region Data Transfer Bottlenecks Remediation Engine",
+    "description": "Targeting verified telemetry anomalies regarding S3 Cross-Region Data Transfer Bottlenecks. Includes production-ready modules and automated scripts.",
+    "storage_waste": "1,250 GB / mo",
+    "compute_overhead": "28 Hours / mo",
+    "remediation": "S3 Glacier Transition",
+    "stripe_link": "https://checkout.stripe.com/c/pay/cs_live_a12jBhQcA4gMnTbl3wYrSpFDDiZslixcIF5w7MCnchAIImr7PGTH46bMM7#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicyc%2FNSknZHVsTmB8Jz8ndW5aaWxzYFowNFBSXUs3QzZIXF1IfERqZD1wVGhBMVNhUjFPZHU0PFxWR0dUQV18PG9pSzxOZ0BIaDxhVmRkUjdVcDNiYVA9dXZTZ0tASWg1Y0p3QVBsf3d3fXNrbGNxRjU1VzZPf0FJZ0InKSdjd2poVmB3c2B3Jz9xd3BgKSdnZGZuYndqcGthRmppancnPycmY2NjY2NjJyknaWR8anBxUXx1YCc%2FJ3Zsa2JpYFpscWBoJyknYGtkZ2lgVWlkZmBtamlhYHd2Jz9xd3BgeCUl",
+    "blueprint_file": "blueprint_20261031_181127.md",
+    "page_file": "page_20261031_181127.html"
+  },
+  {
     "title": "EKS Cluster Over-Provisioning Remediation Engine",
     "description": "Targeting verified telemetry anomalies regarding EKS Cluster Over-Provisioning & Orphaned PVCs. Includes production-ready modules and automated scripts.",
     "storage_waste": "820 GB / mo",
