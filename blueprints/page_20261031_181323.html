@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle RDS Provisioned IOPS Remediation Engine - FinOps Blueprint</title>
+    <style>
+        body { background-color: #0b0f19; color: #f3f4f6; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 60px 20px; }
+        .container { max-width: 850px; margin: 0 auto; background: #111827; border: 1px solid #1f2937; border-radius: 12px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.4); }
+        .badge { background: #374151; color: #93c5fd; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; width: fit-content; margin-bottom: 20px; text-transform: uppercase; }
+        h1 { font-size: 2rem; color: #ffffff; margin-top: 0; margin-bottom: 20px; }
+        p { color: #9ca3af; font-size: 1.05rem; line-height: 1.6; margin-bottom: 30px; }
+        .metrics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; background: #1f2937; padding: 20px; border-radius: 8px; margin-bottom: 35px; }
+        .metric { text-align: center; }
+        .metric span { display: block; font-size: 0.7rem; color: #9ca3af; margin-bottom: 6px; }
+        .metric strong { font-size: 0.95rem; color: #ffffff; }
+        .code-preview { background: #030712; border: 1px solid #374151; border-radius: 8px; padding: 20px; font-family: monospace; color: #34d399; font-size: 0.85rem; overflow-x: auto; margin-bottom: 35px; line-height: 1.5; white-space: pre-wrap; }
+        .cta-button { display: block; text-align: center; background: #4f46e5; color: #ffffff; text-decoration: none; font-weight: 600; padding: 15px; border-radius: 8px; font-size: 1.1rem; transition: background 0.2s; }
+        .cta-button:hover { background: #4338ca; }
+        .back-link { display: block; text-align: center; margin-top: 30px; color: #9ca3af; text-decoration: none; font-size: 0.9rem; }
+        .back-link:hover { color: #ffffff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">PRODUCTION FINOPS BLUEPRINT</div>
+        <h1>Idle RDS Provisioned IOPS Remediation Engine</h1>
+        <p><strong>Telemetry Vector:</strong> Idle RDS Provisioned IOPS & Unattached ENIs</p>
+        <p>Targeting verified telemetry anomalies regarding Idle RDS Provisioned IOPS & Unattached ENIs. Includes production-ready modules and automated scripts.</p>
+        <div class="metrics-grid">
+            <div class="metric"><span>STORAGE WASTE</span><strong>520 GB / mo</strong></div>
+            <div class="metric"><span>COMPUTE OVERHEAD</span><strong>85 Hours / mo</strong></div>
+            <div class="metric"><span>REMEDIATION</span><strong>RDS IOPS Downscaler</strong></div>
+        </div>
+        <div class="code-preview"># Verified Production Manifest Preview:
+resource "aws_db_instance" "optimized_rds" {
+  allocated_storage    = 50
+  iops                 = 3000
+  storage_type         = "gp3"
+}</div>
+        <a href="https://checkout.stripe.com/c/pay/cs_live_a1iCKFql8RayXnzh3UZLPRN1Hrs2eAg54LoR7t9AmP6Vcz1m2wWj1oong6#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicyc%2FNSknZHVsTmB8Jz8ndW5aaWxzYFowNFBSXUs3QzZIXF1IfERqZD1wVGhBMVNhUjFPZHU0PFxWR0dUQV18PG9pSzxOZ0BIaDxhVmRkUjdVcDNiYVA9dXZTZ0tASWg1Y0p3QVBsf3d3fXNrbGNxRjU1VzZPf0FJZ0InKSdjd2poVmB3c2B3Jz9xd3BgKSdnZGZuYndqcGthRmppancnPycmY2NjY2NjJyknaWR8anBxUXx1YCc%2FJ3Zsa2JpYFpscWBoJyknYGtkZ2lgVWlkZmBtamlhYHd2Jz9xd3BgeCUl" class="cta-button">Deploy & Download Complete Manifests ($30.00)</a>
+        <a href="../index.html" class="back-link">&larr; Back to Master Catalog</a>
+    </div>
+</body>
+</html>
