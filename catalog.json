@@ -1,5 +1,15 @@
 [
   {
+    "title": "Kubernetes Horizontal Pod Autoscaler (HPA) Thrashing Remediation Engine",
+    "description": "Targeting verified telemetry anomalies regarding Kubernetes Horizontal Pod Autoscaler (HPA) Thrashing. Includes production-ready modules and automated scripts.",
+    "storage_waste": "45 GB / mo",
+    "compute_overhead": "310 Hours / mo",
+    "remediation": "K8s HPA Stabilization",
+    "stripe_link": "https://checkout.stripe.com/c/pay/cs_live_a13YqT51UMdo5aR0zCTPZal0Sf84b3Tk0Md1iGUAb8sygqXnavgQhABvIv#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicyc%2FNSknZHVsTmB8Jz8ndW5aaWxzYFowNFBSXUs3QzZIXF1IfERqZD1wVGhBMVNhUjFPZHU0PFxWR0dUQV18PG9pSzxOZ0BIaDxhVmRkUjdVcDNiYVA9dXZTZ0tASWg1Y0p3QVBsf3d3fXNrbGNxRjU1VzZPf0FJZ0InKSdjd2poVmB3c2B3Jz9xd3BgKSdnZGZuYndqcGthRmppancnPycmY2NjY2NjJyknaWR8anBxUXx1YCc%2FJ3Zsa2JpYFpscWBoJyknYGtkZ2lgVWlkZmBtamlhYHd2Jz9xd3BgeCUl",
+    "blueprint_file": "blueprint_20261031_181451.md",
+    "page_file": "page_20261031_181451.html"
+  },
+  {
     "title": "Idle RDS Provisioned IOPS Remediation Engine",
     "description": "Targeting verified telemetry anomalies regarding Idle RDS Provisioned IOPS & Unattached ENIs. Includes production-ready modules and automated scripts.",
     "storage_waste": "520 GB / mo",
